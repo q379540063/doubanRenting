@@ -4,9 +4,14 @@ from bs4 import BeautifulSoup
 
 
 
+
+
+
 cookiesfile = '/Users/chenxiaojun/Desktop/python/douban/cookies.txt'#通过抓包把自己cookies数据放入到文件中 此处为文件绝对路径
 settingfile = '/Users/chenxiaojun/Desktop/python/douban/setting.json'#通过抓包把自己cookies数据放入到文件中 此处为文件绝对路径
 resultfile = '/Users/chenxiaojun/Desktop/python/douban/result.json'#通过抓包把自己cookies数据放入到文件中 此处为文件绝对路径
+
+
 cookies = {};
 setting = {};
 result = {}
